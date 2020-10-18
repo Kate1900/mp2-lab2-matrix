@@ -427,6 +427,8 @@
 
 #else
 
+
+
 // <regex.h> may not be available on this platform.  Use our own
 // simple regex implementation instead.
 # define GTEST_USES_SIMPLE_RE 1
